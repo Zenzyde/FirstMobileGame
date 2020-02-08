@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2efcddd5df3b9004bb89cec1464f3852, type: 3}
+  m_Name: FixedSettings
+  m_EditorClassIdentifier: 
+  sphereParentRotationSpeed: 2
+  sphereRotationSpeed: 15
+  sphereOscillationSpeed: 2
+  sphereOscillationMagnitude: 0.25
+  needleTravelSpeed: 10
+  needle: {fileID: 5044116855577974974, guid: e165ab0c0ee39a741a0845d5e18163ba, type: 3}
+  sphere: {fileID: 9049258484535799199, guid: c73eab716b9127148a24c8fb8104c389, type: 3}
+  minSphereSize: {x: 2, y: 2, z: 2}
+  maxSphereSize: {x: 7, y: 7, z: 7}
+  sphereChangeColours:
+  - {r: 0.9733331, g: 1, b: 0, a: 0}
+  - {r: 1, g: 0, b: 0, a: 0}
+  - {r: 0, g: 1, b: 0.029511452, a: 0}
+  - {r: 0, g: 0.3476925, b: 1, a: 0}
+  - {r: 1, g: 0, b: 0.76114655, a: 0}
+  growStartPoint: 3
+  oscillateStartPoint: 4
+  shrinkStartPoint: 5
+  colourStartPoint: 6
